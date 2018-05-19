@@ -7,7 +7,7 @@ package icmp
 import (
 	"net"
 
-	"github.com/hashicorp/go.net/internal/iana"
+	"github.com/davidwalter0/go.net/internal/iana"
 )
 
 const ipv6PseudoHeaderLen = 2*net.IPv6len + 8
