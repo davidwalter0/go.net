@@ -12,9 +12,9 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/net/html"
-	"code.google.com/p/go.text/encoding"
-	"code.google.com/p/go.text/encoding/charmap"
-	"code.google.com/p/go.text/transform"
+	"golang.org/x/text/encoding"
+	"golang.org/x/text/encoding/charmap"
+	"golang.org/x/text/transform"
 )
 
 // Lookup returns the encoding with the specified label, and its canonical
